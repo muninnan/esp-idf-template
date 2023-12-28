@@ -56,3 +56,6 @@ if !advanced {
     variable::set("devcontainer", false);
     variable::set("wokwi", false);
 }
+
+let os = variable::get("os_arch")
+if contains()
